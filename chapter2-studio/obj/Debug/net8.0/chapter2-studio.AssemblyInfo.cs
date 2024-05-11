@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("chapter2-studio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6354d9ae751ad2df7c872f150facb3ccab518a16")]
 [assembly: System.Reflection.AssemblyProductAttribute("chapter2-studio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("chapter2-studio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
