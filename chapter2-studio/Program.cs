@@ -1,8 +1,19 @@
 ﻿using System;
 using CircleMethods;
 
-System.Console.WriteLine("Enter a radius: ");
-double radius = double.Parse(Console.ReadLine());
+string input;
+double radius;
+do
+{
+    System.Console.WriteLine("Enter a radius: ");
+    input = Console.ReadLine();
+    if (!double.TryParse(input, out radius))
+    {
+        Console.WriteLine("Invalid input.");
+        return;
+    }
+} while (input == "" || double.Parse(input) <= 0);
+
 
 
 System.Console.WriteLine("Area of a circle with that radius: " + Circle.Area(radius));
